@@ -1,5 +1,7 @@
 # UIAutomation_Pytest_Playwright
 
+[![Playwright Tests CI](https://github.com/zicostian/UIAutomation_Pytest_Playwright/actions/workflows/playwright.yml/badge.svg)](https://github.com/zicostian/UIAutomation_Pytest_Playwright/actions/workflows/playwright.yml)
+
 ## Description
 
 This repository is a ready-to-use `pytest` automation framework built in Python for UI Automation testing. It follows a Page Object Model (POM) structure to improve:
