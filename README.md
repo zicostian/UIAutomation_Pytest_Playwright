@@ -126,3 +126,7 @@ class LoginPage:
 - The Playwright trace files are saved under `test-results/`.
 - Use the page object classes in `pages/` to keep tests clean and maintainable.
 - If browser binaries are not installed, run `python -m playwright install` after setting up the virtual environment.
+
+## Author
+
+[Zico Agustian Rusdy](https://linkedin.com/in/zicostian)
