@@ -45,6 +45,17 @@ When you are finished working, deactivate the environment:
 deactivate
 ```
 
+Note: Ensure you're using this project's `.venv` before running `pytest`. If the
+virtualenv points to a different or missing Python interpreter, recreate it and
+install dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m playwright install
+```
+
 ### Run the tests
 
 From the project root directory, run:
